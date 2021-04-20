@@ -1,7 +1,7 @@
 - 👋 Hi, I’m @harshgulhane
-- 👀 I’m interested in DevOps Technologies
+- 👀 I’m interested in all new DevOps Technologies
 - 🌱 I’m currently learning Kubernetes
-- 💞️ I’m looking to collaborate on Freelance
+- 💞️ I’m looking to collaborate on any DevOps work
 - 📫 How to reach me email - harshgulhane@gmail.com
 
 <!---

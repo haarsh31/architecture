@@ -1,6 +1,6 @@
 - 👋 Hi, I’m @harshgulhane
-- 👀 I’m interested in all new DevOps Technologies
-- 🌱 I’m currently learning Kubernetes
+- 👀 I’m interested in all new DevSecOps Technologies
+- 🌱 I’m currently learning ELK Stack
 - 💞️ I’m looking to collaborate on any DevOps work
 - 📫 How to reach me email - harshgulhane@gmail.com
 

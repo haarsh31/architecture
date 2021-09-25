@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T14:10:25.628Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="uM0s6aAXg6QyjaYXKdT8" version="15.3.1" type="github" pages="7">
+<mxfile host="app.diagrams.net" modified="2021-09-25T14:21:52.169Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="JH_qd6rS3QrjzuTZg89Z" version="15.3.1" type="github" pages="7">
   <diagram id="9reER70o6MGOf1uDHaSa" name="Overall Architecture">
     <mxGraphModel dx="2304" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -366,7 +366,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JAAkesRjFncYBwSX7LTk" name="Portainer">
-    <mxGraphModel dx="1169" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="902" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="T1sO1mBgBkiVXnJcExrG-0" />
         <mxCell id="T1sO1mBgBkiVXnJcExrG-1" parent="T1sO1mBgBkiVXnJcExrG-0" />
@@ -401,7 +401,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y3C1miu8JlsUk8b06txI" name="NIMBAL TREE DOCKER">
-    <mxGraphModel dx="994" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="767" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="F6rImRfcjLfm2xf3virO-0" />
         <mxCell id="F6rImRfcjLfm2xf3virO-1" parent="F6rImRfcjLfm2xf3virO-0" />
@@ -553,7 +553,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yJq1CVK-OpCCL_kfqS5l" name="Zalenium Grid">
-    <mxGraphModel dx="994" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1278" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CAVgizF_UDEVj1PiDrql-0" />
         <mxCell id="CAVgizF_UDEVj1PiDrql-1" parent="CAVgizF_UDEVj1PiDrql-0" />
@@ -581,11 +581,53 @@
         <mxCell id="SC2S1B-66OH8_USFO_R9-7" value="&lt;b&gt;CREATION&lt;/b&gt;&lt;br&gt;&lt;br&gt;Current: EC2&lt;br&gt;&lt;br&gt;Future: Jenkins, EKS&lt;br&gt;&lt;span style=&quot;color: rgba(0 , 0 , 0 , 0) ; font-family: monospace ; font-size: 0px&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%22%26lt%3Bb%26gt%3BDOCKER%20IMAGE%26lt%3B%2Fb%26gt%3B%26lt%3Bbr%26gt%3B%26lt%3Bbr%26gt%3BECR%22%20style%3D%22rounded%3D0%3BwhiteSpace%3Dwrap%3Bhtml%3D1%3BfillColor%3Ddefault%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%22346%22%20y%3D%22330%22%20width%3D%22136%22%20height%3D%22220%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3ENOw&lt;/span&gt;&lt;b&gt;&lt;br&gt;&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="530" y="330" width="136" height="220" as="geometry" />
         </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-0" value="CURRENT GRID CREATION PROCESS" style="shape=mxgraph.ibm.box;prType=vpc;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#f5f5f5;rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;fontColor=#333333;" vertex="1" parent="CAVgizF_UDEVj1PiDrql-1">
+          <mxGeometry x="260" y="850" width="440" height="750" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-1" target="I4vrFvmS2P25PA12PHKJ-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-1" value="New Client Added" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#080000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-2" target="I4vrFvmS2P25PA12PHKJ-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-2" value="Login to Kubernetes Cluster" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-6" target="I4vrFvmS2P25PA12PHKJ-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-6" value="Create new Namespace for respective client" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-9" target="I4vrFvmS2P25PA12PHKJ-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-9" value="Deploy Zalenium Using Helm Chart" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-10" target="I4vrFvmS2P25PA12PHKJ-11">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-10" value="Point port (4444) to LB" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="I4vrFvmS2P25PA12PHKJ-0" source="I4vrFvmS2P25PA12PHKJ-11" target="I4vrFvmS2P25PA12PHKJ-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-11" value="Add LB to GoDaddy Subdomain" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="570" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="I4vrFvmS2P25PA12PHKJ-12" value="Update new URL to Nimbal Tree" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="I4vrFvmS2P25PA12PHKJ-0">
+          <mxGeometry x="158" y="680" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="3ldbFi4jOB7Rku_gJmSp" name="Application Flow">
-    <mxGraphModel dx="2304" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="demsYnlKOnlr85Y-77aW-0" />
         <mxCell id="demsYnlKOnlr85Y-77aW-1" parent="demsYnlKOnlr85Y-77aW-0" />

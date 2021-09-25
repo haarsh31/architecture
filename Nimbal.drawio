@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-09-25T15:07:33.238Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="p8-C8P81kernDZnkoYCo" version="15.3.1" type="github" pages="6">
+<mxfile host="app.diagrams.net" modified="2021-09-25T15:14:51.250Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="E-We4jWldr9OoQ6k2ZT2" version="15.3.1" type="github" pages="7">
   <diagram id="9reER70o6MGOf1uDHaSa" name="Overall Architecture">
-    <mxGraphModel dx="2304" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2105" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -647,6 +647,47 @@
         </mxCell>
         <mxCell id="m2HBASRZQi4OGDAQ04Cm-10" value="END RESULT:&lt;br&gt;&lt;br&gt;Nimbal tree will be created for client" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="m2HBASRZQi4OGDAQ04Cm-0">
           <mxGeometry x="158" y="580" width="120" height="60" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="JyOKCSqGpaie7mbTxR52" name="JENKINS">
+    <mxGraphModel dx="-60" dy="468" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="UZeFkTwDUmcO5Vj-RA6Z-0" />
+        <mxCell id="UZeFkTwDUmcO5Vj-RA6Z-1" parent="UZeFkTwDUmcO5Vj-RA6Z-0" />
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-0" value="JENKINS CREATION PROCESS" style="shape=mxgraph.ibm.box;prType=vpc;fontStyle=0;verticalAlign=top;align=left;spacingLeft=32;spacingTop=4;fillColor=#f5f5f5;rounded=0;whiteSpace=wrap;html=1;strokeColor=#666666;strokeWidth=2;dashed=0;container=1;spacing=-4;collapsible=0;expand=0;recursiveResize=0;fontColor=#333333;" vertex="1" parent="UZeFkTwDUmcO5Vj-RA6Z-1">
+          <mxGeometry x="960" y="40" width="440" height="690" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-1" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6O2pR4ogTQC3L_R0hLE-0" source="H6O2pR4ogTQC3L_R0hLE-2" target="H6O2pR4ogTQC3L_R0hLE-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-2" value="New Client Added" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#080000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="30" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="H6O2pR4ogTQC3L_R0hLE-0" source="H6O2pR4ogTQC3L_R0hLE-4" target="H6O2pR4ogTQC3L_R0hLE-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-4" value="Run Jenkins Container on ECS&amp;nbsp;" style="whiteSpace=wrap;html=1;rounded=0;strokeColor=#050000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="130" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6O2pR4ogTQC3L_R0hLE-0" source="H6O2pR4ogTQC3L_R0hLE-6" target="H6O2pR4ogTQC3L_R0hLE-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-6" value="Manually Update Configuration &amp;amp; Creds&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="240" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="H6O2pR4ogTQC3L_R0hLE-0" source="H6O2pR4ogTQC3L_R0hLE-8" target="H6O2pR4ogTQC3L_R0hLE-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-8" value="Create Pipelines &amp;amp; Connect with GRID" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="350" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-9" value="Run Test Cases" style="rounded=0;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="460" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="H6O2pR4ogTQC3L_R0hLE-10" value="END RESULT:&lt;br&gt;&lt;br&gt;Jenkins Server will be ready to run test cases on GRID" style="rounded=1;whiteSpace=wrap;html=1;strokeColor=#050000;" vertex="1" parent="H6O2pR4ogTQC3L_R0hLE-0">
+          <mxGeometry x="158" y="560" width="120" height="90" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>

@@ -1,5 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T02:35:29.490Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="Ml42TBWVtlZ7m_tIxuG_" version="15.3.3" type="github" pages="7">
-  <diagram id="9reER70o6MGOf1uDHaSa" name="Overall Architecture">
+<mxfile host="app.diagrams.net" modified="2021-09-27T02:50:58.400Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="UZtQX44CDqbydJ6y4Quq" version="15.3.3" type="github" pages="8">
+  <diagram id="TPgSclhPf0JYTvySPZ5b" name="CONTENT">
+    <mxGraphModel dx="539" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="lD80HyQK1BHKOpzMZN71-0" />
+        <mxCell id="lD80HyQK1BHKOpzMZN71-1" parent="lD80HyQK1BHKOpzMZN71-0" />
+        <mxCell id="lD80HyQK1BHKOpzMZN71-3" value="ARCHITECTURE (09/29/2021)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;hachureGap=4;pointerEvents=0;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="lD80HyQK1BHKOpzMZN71-1">
+          <mxGeometry x="140" y="60" width="300" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="lD80HyQK1BHKOpzMZN71-4" value="1. Application Flow&#xa;2. Current Application Creation &amp; Skelton&#xa;    a. Web IDE (Theia)&#xa;    b. Nimbal Tree&#xa;    c. Portainer&#xa;    d. Grid&#xa;    e. Jenkins&#xa;3. Overall Architecture (Future)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lD80HyQK1BHKOpzMZN71-3">
+          <mxGeometry y="30" width="300" height="140" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="9reER70o6MGOf1uDHaSa" name="OVERALL ARCHITECTURE">
     <mxGraphModel dx="3747" dy="2506" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
@@ -334,7 +348,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3ldbFi4jOB7Rku_gJmSp" name="APPLICATION FLOW">
-    <mxGraphModel dx="5061" dy="1560" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3357" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="demsYnlKOnlr85Y-77aW-0" />
         <mxCell id="demsYnlKOnlr85Y-77aW-1" parent="demsYnlKOnlr85Y-77aW-0" />

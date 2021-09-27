@@ -1,10 +1,10 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T03:00:48.954Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="XNoew2f6Tz6KCYRZQtnY" version="15.3.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-09-27T03:17:30.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="8HfIaz1YK__JV8qnhJoT" version="15.3.3" type="github" pages="8">
   <diagram id="TPgSclhPf0JYTvySPZ5b" name="CONTENT">
     <mxGraphModel dx="851" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="lD80HyQK1BHKOpzMZN71-0" />
         <mxCell id="lD80HyQK1BHKOpzMZN71-1" parent="lD80HyQK1BHKOpzMZN71-0" />
-        <mxCell id="lD80HyQK1BHKOpzMZN71-3" value="ARCHITECTURE (09/29/2021)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;hachureGap=4;pointerEvents=0;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="lD80HyQK1BHKOpzMZN71-1">
+        <mxCell id="lD80HyQK1BHKOpzMZN71-3" value="ARCHITECTURE (09/27/2021)" style="swimlane;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;rounded=1;fontSize=14;fontStyle=0;strokeWidth=3;resizeParent=0;resizeLast=1;shadow=0;dashed=0;align=center;hachureGap=4;pointerEvents=0;fillColor=none;labelBackgroundColor=none;" vertex="1" parent="lD80HyQK1BHKOpzMZN71-1">
           <mxGeometry x="230" y="70" width="300" height="170" as="geometry" />
         </mxCell>
         <mxCell id="lD80HyQK1BHKOpzMZN71-4" value="1. Application Flow&#xa;2. Current Application Creation &amp; Skelton&#xa;    a. Web IDE (Theia)&#xa;    b. Nimbal Tree&#xa;    c. Portainer&#xa;    d. Grid&#xa;    e. Jenkins&#xa;3. Overall Architecture (Future)" style="align=left;spacingLeft=4;fontSize=12;verticalAlign=top;resizable=0;rotatable=0;part=1;" vertex="1" parent="lD80HyQK1BHKOpzMZN71-3">
@@ -14,7 +14,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="3ldbFi4jOB7Rku_gJmSp" name="APPLICATION FLOW">
-    <mxGraphModel dx="3357" dy="780" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3106" dy="551" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="demsYnlKOnlr85Y-77aW-0" />
         <mxCell id="demsYnlKOnlr85Y-77aW-1" parent="demsYnlKOnlr85Y-77aW-0" />
@@ -159,7 +159,7 @@
         <mxCell id="fPZXkuuchJIZXgfEW2Y3-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" parent="demsYnlKOnlr85Y-77aW-1" source="fPZXkuuchJIZXgfEW2Y3-11" target="fPZXkuuchJIZXgfEW2Y3-13" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="fPZXkuuchJIZXgfEW2Y3-11" value="JENKINS" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
+        <mxCell id="fPZXkuuchJIZXgfEW2Y3-11" value="JENKINS/ CI-CD Tool" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
           <mxGeometry x="-224" y="225" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPZXkuuchJIZXgfEW2Y3-12" value="TO TRIGGER TEST CASES VIA API" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
@@ -178,7 +178,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="fPZXkuuchJIZXgfEW2Y3-15" value="BITBUCKET" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
+        <mxCell id="fPZXkuuchJIZXgfEW2Y3-15" value="Code Repository" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
           <mxGeometry x="-344" y="460" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="fPZXkuuchJIZXgfEW2Y3-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;shape=link;" parent="demsYnlKOnlr85Y-77aW-1" source="fPZXkuuchJIZXgfEW2Y3-18" target="fPZXkuuchJIZXgfEW2Y3-15" edge="1">
@@ -294,17 +294,17 @@
         <mxCell id="fPZXkuuchJIZXgfEW2Y3-73" value="TO RUN TEST CASES" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
           <mxGeometry x="-558" y="1030" width="140" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="fPZXkuuchJIZXgfEW2Y3-84" value="WEB IDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
+        <mxCell id="fPZXkuuchJIZXgfEW2Y3-84" value="Physical/Web IDE" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
           <mxGeometry x="-509" y="930" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="ufZAyvfT2CUs4D4Bv3iR-4" value="UI" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
-          <mxGeometry x="-781.5" y="360" width="30" height="20" as="geometry" />
+        <mxCell id="ufZAyvfT2CUs4D4Bv3iR-4" value="UI (Admin User)" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="demsYnlKOnlr85Y-77aW-1" vertex="1">
+          <mxGeometry x="-816.5" y="360" width="100" height="20" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="dUvzKrzdSeWx5AoZ4AdJ" name="WEB IDE (THEIA)">
-    <mxGraphModel dx="3747" dy="1337" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2590" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="uV01FP0vy0IpGxc8mJd5-0" />
         <mxCell id="uV01FP0vy0IpGxc8mJd5-1" parent="uV01FP0vy0IpGxc8mJd5-0" />
@@ -369,7 +369,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="Y3C1miu8JlsUk8b06txI" name="NIMBAL TREE DOCKER">
-    <mxGraphModel dx="3382" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2590" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="F6rImRfcjLfm2xf3virO-0" />
         <mxCell id="F6rImRfcjLfm2xf3virO-1" parent="F6rImRfcjLfm2xf3virO-0" />
@@ -554,7 +554,7 @@
     </mxGraphModel>
   </diagram>
   <diagram id="JAAkesRjFncYBwSX7LTk" name="PORTAINER">
-    <mxGraphModel dx="3382" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2590" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="T1sO1mBgBkiVXnJcExrG-0" />
         <mxCell id="T1sO1mBgBkiVXnJcExrG-1" parent="T1sO1mBgBkiVXnJcExrG-0" />

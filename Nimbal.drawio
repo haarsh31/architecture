@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2021-09-27T03:17:30.147Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="8HfIaz1YK__JV8qnhJoT" version="15.3.3" type="github" pages="8">
+<mxfile host="app.diagrams.net" modified="2021-09-27T03:19:05.712Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/93.0.4577.82 Safari/537.36" etag="OSLk-kkbT41KLBfCMUyd" version="15.3.3" type="github" pages="8">
   <diagram id="TPgSclhPf0JYTvySPZ5b" name="CONTENT">
     <mxGraphModel dx="851" dy="323" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -622,26 +622,26 @@
     </mxGraphModel>
   </diagram>
   <diagram id="yJq1CVK-OpCCL_kfqS5l" name="GRID">
-    <mxGraphModel dx="3382" dy="1170" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2590" dy="669" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="CAVgizF_UDEVj1PiDrql-0" />
         <mxCell id="CAVgizF_UDEVj1PiDrql-1" parent="CAVgizF_UDEVj1PiDrql-0" />
         <mxCell id="SC2S1B-66OH8_USFO_R9-0" value="&lt;b&gt;&lt;font color=&quot;#000000&quot;&gt;ZALENIUM GRID&lt;/font&gt;&lt;/b&gt;" style="points=[[0,0],[0.25,0],[0.5,0],[0.75,0],[1,0],[1,0.25],[1,0.5],[1,0.75],[1,1],[0.75,1],[0.5,1],[0.25,1],[0,1],[0,0.75],[0,0.5],[0,0.25]];outlineConnect=0;gradientColor=none;html=1;whiteSpace=wrap;fontSize=12;fontStyle=0;shape=mxgraph.aws4.group;grIcon=mxgraph.aws4.group_vpc;strokeColor=#248814;fillColor=default;verticalAlign=top;align=left;spacingLeft=30;fontColor=#AAB7B8;dashed=0;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="149" y="75" width="530" height="590" as="geometry" />
         </mxCell>
-        <mxCell id="SC2S1B-66OH8_USFO_R9-1" value="8080" style="fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
+        <mxCell id="SC2S1B-66OH8_USFO_R9-1" value="4444" style="fontStyle=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;spacingLeft=2;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="149" y="345" width="50" height="50" as="geometry" />
         </mxCell>
         <mxCell id="SC2S1B-66OH8_USFO_R9-2" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="295" y="95" width="136" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="SC2S1B-66OH8_USFO_R9-3" value="&lt;b&gt;DOCKERFILE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bitbucket Code&lt;br&gt;Nimbal API Code&lt;br&gt;ENV Variables" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
+        <mxCell id="SC2S1B-66OH8_USFO_R9-3" value="&lt;b&gt;DOCKERFILE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bitbucket Code&lt;br&gt;HELM Charts" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="313" y="120" width="100" height="170" as="geometry" />
         </mxCell>
         <mxCell id="SC2S1B-66OH8_USFO_R9-4" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="479" y="95" width="136" height="220" as="geometry" />
         </mxCell>
-        <mxCell id="SC2S1B-66OH8_USFO_R9-5" value="&lt;b&gt;AUTHENTICATION&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bitbucket Creds&lt;br&gt;&lt;br&gt;Google API Token" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
+        <mxCell id="SC2S1B-66OH8_USFO_R9-5" value="&lt;b&gt;AUTHENTICATION&amp;nbsp;&lt;/b&gt;&lt;br&gt;&lt;br&gt;Bitbucket Creds&lt;br&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
           <mxGeometry x="497" y="115" width="100" height="170" as="geometry" />
         </mxCell>
         <mxCell id="SC2S1B-66OH8_USFO_R9-6" value="&lt;b&gt;DOCKER IMAGE&lt;/b&gt;&lt;br&gt;&lt;br&gt;Current: EC2&lt;br&gt;&lt;br&gt;Future: ECR" style="rounded=0;whiteSpace=wrap;html=1;fillColor=default;" parent="CAVgizF_UDEVj1PiDrql-1" vertex="1">
